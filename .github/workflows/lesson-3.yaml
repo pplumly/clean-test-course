@@ -26,6 +26,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm install
-      - name: Run Functional Tests
+      - name: Run functional tests
       - run: npm test
       #new comments
